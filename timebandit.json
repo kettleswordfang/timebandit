@@ -3,7 +3,7 @@
     "type": "scenario",
     "ident": "timejump",
     "name": "Time Jump Malfunction",
-    "points": -5,
+    "points": 5,
     "description": "They were supposed to land you sometime in the 18th century in the middle of the Vatican Secret Archives, but.. something has gone terribly wrong. With no recall point in this timeline you're stuck here, forever.",
     "start_name": "Not the Vatican",
     "allowed_locs": [ 
@@ -40,6 +40,7 @@
         "bio_night_vision",
         "bio_power_storage_mkII" ],
     "skills": [
+            { "level": 2, "name": "lockpick"             
             { "level": 2, "name": "electronics" },
             { "level": 2, "name": "dodge" },
             { "level": 1, "name": "melee" },
@@ -51,7 +52,6 @@
 				"small_relic",
 				"bandana",
 				"gloves_fingerless",
-				"tank_top",
                 "pants_cargo",
                 "socks",
                 "boots_combat",
@@ -59,6 +59,8 @@
 				"mbag" ],
 			"entries": [
                  { "item": "v29", "container-item": "holster" } ]
+        "male": [ "tank_top", "boxer_shorts" ],
+        "female": [ "sports_bra", "boy_shorts" ]
 		}
 	},
 	"flags": ["SCEN_ONLY"]
