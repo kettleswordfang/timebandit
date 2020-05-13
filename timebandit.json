@@ -18,9 +18,9 @@
     "id": "MELEE_TIME",
     "name": "Monoblade Training",
     "points": 0,
-    "description": "You have been trained to fight with your integrated blade. You start knowing Eskrima.",
+    "description": "You have been trained to fight with your integrated blade. You start knowing Bionic Combatives.",
 	"starting_trait" : false,
-	"initial_ma_styles" : [ "style_eskrima" ],
+	"initial_ma_styles" : [ "style_biojutsu" ],
 	"valid" : false
     },
 	
@@ -55,13 +55,15 @@
                 "pants_cargo",
                 "socks",
                 "boots_combat",
+                "tank_top",
+                "cloak",
                 "burnt_out_bionic",
 				"mbag" ],
 			"entries": [
-                 { "item": "v29", "container-item": "holster" } ],
-        "male": [ "tank_top", "boxer_shorts" ],
+                 { "item": "v29", "container-item": "holster" } ]},
+        "male": [ "boxer_shorts" ],
         "female": [ "sports_bra", "boy_shorts" ]
-		}
+		
 	},
 	"flags": ["SCEN_ONLY"]
 }	
