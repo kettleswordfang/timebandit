@@ -1,0 +1,10 @@
+{
+        "type": "MOD_INFO",
+		"category": "rebalance",
+        "ident": "timebandit",
+        "name": "Time Bandit",
+        "description": "A definitely unbalanced casual start built around the integrated blade.",
+        "path": "",
+        "dependencies": [ "dda" ],
+		"author": "Kettle Swordfang"
+    }
