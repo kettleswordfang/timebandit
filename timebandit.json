@@ -40,7 +40,7 @@
         "bio_night_vision",
         "bio_power_storage_mkII" ],
     "skills": [
-            { "level": 2, "name": "lockpick"             
+            { "level": 2, "name": "lockpick" },
             { "level": 2, "name": "electronics" },
             { "level": 2, "name": "dodge" },
             { "level": 1, "name": "melee" },
@@ -58,7 +58,7 @@
                 "burnt_out_bionic",
 				"mbag" ],
 			"entries": [
-                 { "item": "v29", "container-item": "holster" } ]
+                 { "item": "v29", "container-item": "holster" } ],
         "male": [ "tank_top", "boxer_shorts" ],
         "female": [ "sports_bra", "boy_shorts" ]
 		}
